@@ -7,7 +7,7 @@ gem 'protected_attributes'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'thin'
-gem 'asset_sync'
+gem 'asset_sync', '>= 1.0.0'
 #gem 'mongoid', '~> 2.4'
 #gem 'bson_ext', '~> 1.5'
 gem 'devise'
