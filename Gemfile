@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.0'
+gem 'rails', '5.2.6.2'
 gem 'protected_attributes'
 
 # Bundle edge Rails instead:
@@ -10,21 +10,21 @@ gem 'thin'
 gem 'asset_sync'
 #gem 'mongoid', '~> 2.4'
 #gem 'bson_ext', '~> 1.5'
-gem 'devise'
+gem 'devise', '>= 4.4.2'
 
 
 # Gems used only for assets and not required
 # in production environments by default.
 # group :assets do
-  gem 'sass-rails', '~> 4.0.3'
-  gem 'coffee-rails'
+  gem 'sass-rails', '~> 5.0.5'
+  gem 'coffee-rails', '>= 4.2.2'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platform => :ruby
 
   gem 'uglifier', '>= 1.0.3'
 # end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 # Gems just for development, currently this is just used to split the DB requirements
 group :development, :test do
